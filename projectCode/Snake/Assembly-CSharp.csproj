@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Snake.cs" />
+    <Compile Include="Assets\Scripts\Food.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
