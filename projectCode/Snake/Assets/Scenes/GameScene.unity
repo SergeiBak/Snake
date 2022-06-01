@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 200442586}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -857,6 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b4a954a98c05f4d867984aa44effe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  segmentPrefab: {fileID: 2355611231457372396, guid: 7fe8e7b6241b4c6409251a30d8a02ac8, type: 3}
   speed: 20
   speedMultiplier: 1
 --- !u!1 &1901461361
