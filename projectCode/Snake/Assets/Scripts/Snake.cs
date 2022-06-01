@@ -70,6 +70,8 @@ public class Snake : MonoBehaviour
         Transform segment = Instantiate(segmentPrefab);
         segment.position = segments[segments.Count - 1].position;
 
+        speedMultiplier += 0.1f;
+
         segments.Add(segment);
     }
 
@@ -87,6 +89,8 @@ public class Snake : MonoBehaviour
         {
             Grow();
         }
+
+        speedMultiplier = 1f;
 
         direction = Vector2.right;
         transform.position = Vector3.zero;
