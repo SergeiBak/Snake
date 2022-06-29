@@ -26,6 +26,7 @@ public class Food : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            GameManager.Instance.IncreaseScore();
             RandomizePosition();
         }
     }

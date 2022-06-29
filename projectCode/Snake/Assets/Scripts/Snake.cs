@@ -75,7 +75,7 @@ public class Snake : MonoBehaviour
         segments.Add(segment);
     }
 
-    private void ResetState()
+    public void ResetState()
     {
         for (int i = 1; i < segments.Count; i++)
         {
@@ -104,7 +104,8 @@ public class Snake : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Obstacle"))
         {
-            ResetState();
+            GameManager.Instance.GameOver();
+            // ResetState();
         }
     }
 }
