@@ -20,6 +20,7 @@ In order to play this version of Snake, follow the [link](https://sergeibak.gith
 ## Code
 A brief description of all of the classes is as follows:
 - The `Food` class handles the positioning & repositioning of apples on the board.
+- The `GameManager` class handles score tracking as well as UI display.
 - The `Snake` class handles player movement, collision, and the growing of the Snake when it eats apples.
 
 ## Technologies
